@@ -1,0 +1,160 @@
+.theme .intro-nav {
+	display: flex;
+	font-size: 0.16rem;
+	padding:0 0.15rem;
+	height: 0.32rem;
+}
+.theme .intro-nav li {
+	width: 0.5rem;
+	height: 0.32rem;
+	padding-right:0.08rem;
+	text-align: left;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	margin-right: 0.1rem;
+	position: relative;
+}
+.theme .intro-nav li.active {
+	color: #72dcce;
+	/* font-size: 0.18rem; */
+	font-weight:600;
+
+}
+.theme .intro-nav li.active span.line{
+	background: #72dcce;
+	display:block;
+}
+.theme .intro-nav li span.line {
+	position: absolute;
+	height:1px;
+	width:60%;
+	bottom: 1px;
+	left:0;
+	background: #ffffff;
+	display: none;
+}
+.theme .card-array-wrap {
+	border-radius: 0.1rem 0.1rem 0 0;
+	background: #ffffff;
+	position: relative;
+}
+.theme .card-array-wrap.no-radius {
+	border-radius:0;
+}
+.theme .card-array-wrap .card-title {
+	padding:0.1rem 0.15rem;
+	font-size: 0.18rem;
+	color: #333333;
+	font-weight: 400;
+	text-align: left;
+}
+.theme .card-array {
+	padding: 0.08rem 0.15rem;
+	padding-top: 0.1rem;
+	border-top: 2px solid #fafafa;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+.theme .card-array li{
+	background: #FFFFFF;
+	padding: 0.08rem 0 0 0;
+	border-radius:0.04rem;
+	margin-bottom: 0.2rem;
+}
+.theme .card-array li .wrap{
+	display: flex;
+}
+.theme .card-array li .main{
+	text-align: left;
+	background: #eaeaea;
+	padding: 0.1rem 0.05rem;
+	display: none;
+}
+.theme .card-array li.active .main {
+	display: block;
+}
+.theme .card-array li:nth-last-child(1){
+	margin-bottom: 0rem;
+}
+.theme .card-array li.vedio{
+	margin-bottom: 0.05rem;
+}
+.theme .card-array li .vedio-image {
+	width: 100%;
+	height: 2rem;
+}
+.theme .card-array li .vedio-image img {
+	width:100%;
+	height:100%;
+	display: block;
+}
+.theme .card-array li .image {
+	width:1.6rem;
+	height:0.8rem;
+}
+.theme .card-array li .image img
+{
+	width:100%;
+	height:100%;
+	display: block;
+}
+.theme .card-array li .title{
+	flex: 1;
+	padding:0 0.07rem;
+	position: relative;
+	margin-left: 0.1rem;
+}
+.theme .card-array h2 {
+	color: #333333;
+	font-size: 0.17rem;
+	margin: 0.03rem 0 0.03rem 0;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.theme .card-array .type , .theme .card-array .content{
+	color: #898989;
+}
+ .theme .card-array .content {
+	 position: absolute;
+	 left:0.07rem;
+	 bottom:0;
+ }
+
+ .theme .intro-nav {
+ 	display: flex;
+ 	font-size: 0.16rem;
+ 	padding: 0.2rem 0.15rem  0.1rem 0.15rem ;
+ 	height: 0.32rem;
+	margin-bottom: 0.1rem;
+ }
+ .theme .intro-nav li {
+ 	width: 0.8rem;
+ 	height: 0.32rem;
+ 	padding-right:0.08rem;
+ 	text-align: left;
+ 	color: #FFFFFF;
+ 	box-sizing: border-box;
+ 	margin-right: 0.1rem;
+ 	position: relative;
+ }
+ .theme .intro-nav li.active {
+ 	color: #3772fc;
+ 	/* font-size: 0.18rem; */
+ 	font-weight:600;
+
+ }
+ .theme .intro-nav li.active span.line{
+ 	background: #3772fc;
+ 	display:block;
+ }
+ .theme .intro-nav li span.line {
+ 	position: absolute;
+ 	height:1px;
+ 	width:80%;
+ 	bottom: 1px;
+ 	left:0;
+ 	background: #ffffff;
+ 	display: none;
+ }
